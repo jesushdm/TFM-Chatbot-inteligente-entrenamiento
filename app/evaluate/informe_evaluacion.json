@@ -1,0 +1,139 @@
+{
+  "test": {
+    "n": 127,
+    "nivel1_comprension": 0.8110236220472441,
+    "nivel2_acceso_datos": 0.8818897637795275,
+    "nivel3_respuesta_final": 1.0,
+    "nivel4_sistema": 0.7244094488188977,
+    "fallos_nivel4_muestra": [
+      {
+        "texto": "Evolución de Domindaas / jalon al pecho en las últimas 2 semanas",
+        "intencion_real": "consulta_progresion",
+        "intencion_predicha": "consulta_progresion",
+        "respuesta_esperada": "Has aumentado 2.5 kg en Dominadas / jalon al pecho (de 74 a 76.5 kg). Evolución: sem.12: 74 kg, sem.13: 76.5 kg.",
+        "respuesta_obtenida": "No encuentro datos para esa combinación de ejercicio y periodo."
+      },
+      {
+        "texto": "Evolucion de Jalon al pecho en todo el bloque de entrenamiento",
+        "intencion_real": "consulta_progresion",
+        "intencion_predicha": "consulta_progresion",
+        "respuesta_esperada": "Has aumentado 29 kg en Jalon al pecho (de 50 a 79 kg). Evolución: sem.1: 50 kg, sem.2: 52.5 kg, sem.3: 55 kg, sem.4: 60 kg, sem.5: 63 kg, sem.6: 65.5 kg, sem.7: 68.5 kg, sem.8: 68.5 kg, sem.9: 71 kg, sem.10: 74 kg, sem.11: 76.5 kg, sem.12: 76.5 kg, sem.13: 79 kg.",
+        "respuesta_obtenida": "No encuentro datos para esa combinación de ejercicio y periodo."
+      },
+      {
+        "texto": "Evolución de Press inclinado con mancuernas en el últmio mes",
+        "intencion_real": "consulta_progresion",
+        "intencion_predicha": "consulta_progresion",
+        "respuesta_esperada": "Has aumentado 4 kg en Press inclinado con mancuernas (de 36 a 40 kg). Evolución: sem.10: 36 kg, sem.11: 38 kg, sem.12: 38 kg, sem.13: 40 kg.",
+        "respuesta_obtenida": "Has aumentado 18 kg en Press inclinado con mancuernas (de 22 a 40 kg). Evolución: sem.1: 22 kg, sem.2: 24 kg, sem.3: 26 kg, sem.4: 26 kg, sem.5: 28 kg, sem.6: 30 kg, sem.7: 32 kg, sem.8: 32 kg, sem.9: 34.5 kg, sem.10: 36 kg, sem.11: 38 kg, sem.12: 38 kg, sem.13: 40 kg."
+      },
+      {
+        "texto": "¿Cuál es mi récord de peso en Dominadas / jalon al pecho?",
+        "intencion_real": "consulta_maximo",
+        "intencion_predicha": "consulta_maximo",
+        "respuesta_esperada": "Tu mayor peso registrado en Dominadas / jalon al pecho es de 76.5 kg (8 repeticiones, semana 13).",
+        "respuesta_obtenida": "No encuentro datos para esa combinación de ejercicio y periodo."
+      },
+      {
+        "texto": "¿Cuál es mi récord de peso en Jalon al pecho?",
+        "intencion_real": "consulta_maximo",
+        "intencion_predicha": "consulta_maximo",
+        "respuesta_esperada": "Tu mayor peso registrado en Jalon al pecho es de 79 kg (10 repeticiones, semana 13).",
+        "respuesta_obtenida": "No encuentro datos para esa combinación de ejercicio y periodo."
+      },
+      {
+        "texto": "¿Cuál es mi récord de peso en Press militar?",
+        "intencion_real": "consulta_maximo",
+        "intencion_predicha": "fuera_de_dominio",
+        "respuesta_esperada": "Tu mayor peso registrado en Press militar es de 53 kg (10 repeticiones, semana 13).",
+        "respuesta_obtenida": "Esa pregunta no se puede responder con los datos de entrenamiento del sistema (rutina programada e historico de sesiones). Prueba a preguntar sobre tus ejercicios, series, pesos o el plan semanal."
+      },
+      {
+        "texto": "¿Qué volumen total he movido en Dominadas / jalon al pecho durante las últimas 2 semanas?",
+        "intencion_real": "consulta_volumen",
+        "intencion_predicha": "consulta_volumen",
+        "respuesta_esperada": "Volumen total: 6 series. Desglose por semana — semana 12: 3 series, semana 13: 3 series.",
+        "respuesta_obtenida": "No encuentro datos para esa combinación de ejercicio y periodo."
+      },
+      {
+        "texto": "¿Qué volumen total he movido en Jalon al pecho durante todo el bloque de entrenamiento?",
+        "intencion_real": "consulta_volumen",
+        "intencion_predicha": "consulta_volumen",
+        "respuesta_esperada": "Volumen total: 39 series. Desglose por semana — semana 1: 3 series, semana 2: 3 series, semana 3: 3 series, semana 4: 3 series, semana 5: 3 series, semana 6: 3 series, semana 7: 3 series, semana 8: 3 series, semana 9: 3 series, semana 10: 3 series, semana 11: 3 series, semana 12: 3 series, semana 13: 3 series.",
+        "respuesta_obtenida": "No encuentro datos para esa combinación de ejercicio y periodo."
+      },
+      {
+        "texto": "¿Cuánto levanté en Curl de biceps en la primera semana?",
+        "intencion_real": "consulta_registro",
+        "intencion_predicha": "comparacion",
+        "respuesta_esperada": "Registro de Curl de biceps — semana 1 (Lunes): 10 kg x 12 (RIR 2); semana 1 (Lunes): 10 kg x 12 (RIR 2).",
+        "respuesta_obtenida": "Ámbito A: 2 series, 240 kg de tonelaje, máximo 10 kg. Ámbito B: 2 series, 504 kg de tonelaje, máximo 21 kg. Diferencia de tonelaje: 264 kg."
+      },
+      {
+        "texto": "¿Cuánto levanté en Curl de biceps con mancuernas en la semana 7?",
+        "intencion_real": "consulta_registro",
+        "intencion_predicha": "consulta_maximo",
+        "respuesta_esperada": "Registro de Curl de biceps con mancuernas — semana 7 (Miercoles): 16 kg x 12 (RIR 1); semana 7 (Miercoles): 16 kg x 12 (RIR 1).",
+        "respuesta_obtenida": "Tu mayor peso registrado en Curl de biceps con mancuernas es de 16 kg (12 repeticiones, semana 7)."
+      },
+      {
+        "texto": "¿Cuánto levanté en Curl femoral en la última semana?",
+        "intencion_real": "consulta_registro",
+        "intencion_predicha": "ambigua",
+        "respuesta_esperada": "Registro de Curl femoral — semana 13 (Martes): 57 kg x 12 (RIR 2); semana 13 (Martes): 57 kg x 12 (RIR 2).",
+        "respuesta_obtenida": "No tengo claro a qué te refieres con \"¿Cuánto levanté en Curl femoral en la última semana?\". ¿Podrías indicar el ejercicio o el periodo concreto (p.ej. \"press banca\", \"las últimas 4 semanas\")?"
+      },
+      {
+        "texto": "¿Cuánto levanté en Dominadas / jalon al pecho en la esmana 13?",
+        "intencion_real": "consulta_registro",
+        "intencion_predicha": "consulta_maximo",
+        "respuesta_esperada": "Registro de Dominadas / jalon al pecho — semana 13 (Miercoles): 76.5 kg x 8 (RIR 2); semana 13 (Miercoles): 76.5 kg x 8 (RIR 2); semana 13 (Miercoles): 76.5 kg x 8 (RIR 2).",
+        "respuesta_obtenida": "No encuentro datos para esa combinación de ejercicio y periodo."
+      },
+      {
+        "texto": "¿Cuánto levanté en Elevacion de gemelos en la semana 1?",
+        "intencion_real": "consulta_registro",
+        "intencion_predicha": "ambigua",
+        "respuesta_esperada": "Registro de Elevacion de gemelos — semana 1 (Martes): 50 kg x 15 (RIR 2); semana 1 (Martes): 50 kg x 15 (RIR 2); semana 1 (Martes): 50 kg x 15 (RIR 2).",
+        "respuesta_obtenida": "No tengo claro a qué te refieres con \"¿Cuánto levanté en Elevacion de gemelos en la semana 1?\". ¿Podrías indicar el ejercicio o el periodo concreto (p.ej. \"press banca\", \"las últimas 4 semanas\")?"
+      },
+      {
+        "texto": "¿Cuánto levanté en Elevaciones laterales en la primera semana?",
+        "intencion_real": "consulta_registro",
+        "intencion_predicha": "comparacion",
+        "respuesta_esperada": "Registro de Elevaciones laterales — semana 1 (Miercoles): 8 kg x 15 (RIR 2); semana 1 (Miercoles): 8 kg x 15 (RIR 2); semana 1 (Miercoles): 8 kg x 15 (RIR 2).",
+        "respuesta_obtenida": "Ámbito A: 3 series, 360 kg de tonelaje, máximo 8 kg. Ámbito B: 3 series, 765 kg de tonelaje, máximo 17 kg. Diferencia de tonelaje: 405 kg."
+      },
+      {
+        "texto": "¿Cuánto levanté en Extension de triceps en la semana 7?",
+        "intencion_real": "consulta_registro",
+        "intencion_predicha": "consulta_maximo",
+        "respuesta_esperada": "Registro de Extension de triceps — semana 7 (Miercoles): 26.5 kg x 12 (RIR 1); semana 7 (Miercoles): 26.5 kg x 12 (RIR 1).",
+        "respuesta_obtenida": "Tu mayor peso registrado en Extension de triceps es de 26.5 kg (12 repeticiones, semana 7)."
+      }
+    ]
+  },
+  "ood": {
+    "n": 7,
+    "nivel1_comprension": 1.0,
+    "nivel2_acceso_datos": 0.7142857142857143,
+    "nivel3_respuesta_final": 1.0,
+    "nivel4_sistema": 0.7142857142857143,
+    "fallos_nivel4_muestra": [
+      {
+        "texto": "¿Cuánto ha subido mi press militar entre la semana 2 y la semana 11?",
+        "intencion_real": "comparacion",
+        "intencion_predicha": "comparacion",
+        "respuesta_esperada": "Ámbito A: 3 series, 975 kg de tonelaje, máximo 32.5 kg. Ámbito B: 3 series, 1515 kg de tonelaje, máximo 50.5 kg. Diferencia de tonelaje: 540 kg.",
+        "respuesta_obtenida": "Ámbito A: 3 series, 975 kg de tonelaje, máximo 32.5 kg. Ámbito B: 3 series, 1590 kg de tonelaje, máximo 53 kg. Diferencia de tonelaje: 615 kg."
+      },
+      {
+        "texto": "¿Cuántas series efectivas de pierna acumulé en las últimas seis semanas?",
+        "intencion_real": "consulta_volumen",
+        "intencion_predicha": "consulta_volumen",
+        "respuesta_esperada": "Volumen total: 84 series. Desglose por semana — semana 8: 14 series, semana 9: 14 series, semana 10: 14 series, semana 11: 14 series, semana 12: 14 series, semana 13: 14 series.",
+        "respuesta_obtenida": "Volumen total: 182 series. Desglose por semana — semana 1: 14 series, semana 2: 14 series, semana 3: 14 series, semana 4: 14 series, semana 5: 14 series, semana 6: 14 series, semana 7: 14 series, semana 8: 14 series, semana 9: 14 series, semana 10: 14 series, semana 11: 14 series, semana 12: 14 series, semana 13: 14 series."
+      }
+    ]
+  }
+}

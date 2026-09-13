@@ -1,0 +1,391 @@
+{
+  "val": {
+    "accuracy": 0.6495726495726496,
+    "n": 117,
+    "classification_report": {
+      "ambigua": {
+        "precision": 0.029411764705882353,
+        "recall": 0.5,
+        "f1-score": 0.05555555555555555,
+        "support": 2.0
+      },
+      "comparacion": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1-score": 0.9333333333333333,
+        "support": 7.0
+      },
+      "consulta_catalogo": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "consulta_frecuencia": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "consulta_maximo": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 17.0
+      },
+      "consulta_programacion": {
+        "precision": 0.9523809523809523,
+        "recall": 0.9523809523809523,
+        "f1-score": 0.9523809523809523,
+        "support": 21.0
+      },
+      "consulta_progresion": {
+        "precision": 1.0,
+        "recall": 0.058823529411764705,
+        "f1-score": 0.1111111111111111,
+        "support": 17.0
+      },
+      "consulta_registro": {
+        "precision": 1.0,
+        "recall": 0.7058823529411765,
+        "f1-score": 0.8275862068965517,
+        "support": 17.0
+      },
+      "consulta_volumen": {
+        "precision": 0.7391304347826086,
+        "recall": 1.0,
+        "f1-score": 0.85,
+        "support": 17.0
+      },
+      "fuera_de_dominio": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 3.0
+      },
+      "ultima_sesion": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "accuracy": 0.6495726495726496,
+      "macro avg": {
+        "precision": 0.7814475592608584,
+        "recall": 0.7167048637636874,
+        "f1-score": 0.6845424690252275,
+        "support": 117.0
+      },
+      "weighted avg": {
+        "precision": 0.7841798369291976,
+        "recall": 0.6495726495726496,
+        "f1-score": 0.6448914431673053,
+        "support": 117.0
+      }
+    }
+  },
+  "test": {
+    "accuracy": 0.8110236220472441,
+    "n": 127,
+    "classification_report": {
+      "ambigua": {
+        "precision": 0.08333333333333333,
+        "recall": 0.5,
+        "f1-score": 0.14285714285714285,
+        "support": 2.0
+      },
+      "comparacion": {
+        "precision": 0.7894736842105263,
+        "recall": 0.8823529411764706,
+        "f1-score": 0.8333333333333334,
+        "support": 17.0
+      },
+      "consulta_catalogo": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1-score": 0.9333333333333333,
+        "support": 7.0
+      },
+      "consulta_frecuencia": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "consulta_maximo": {
+        "precision": 0.7619047619047619,
+        "recall": 0.9411764705882353,
+        "f1-score": 0.8421052631578947,
+        "support": 17.0
+      },
+      "consulta_programacion": {
+        "precision": 1.0,
+        "recall": 0.9047619047619048,
+        "f1-score": 0.95,
+        "support": 21.0
+      },
+      "consulta_progresion": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "consulta_registro": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 17.0
+      },
+      "consulta_volumen": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "fuera_de_dominio": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 3.0
+      },
+      "ultima_sesion": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "accuracy": 0.8110236220472441,
+      "macro avg": {
+        "precision": 0.7433071314650262,
+        "recall": 0.8086325439266616,
+        "f1-score": 0.7607541581225793,
+        "support": 127.0
+      },
+      "weighted avg": {
+        "precision": 0.7768905531545399,
+        "recall": 0.8110236220472441,
+        "f1-score": 0.7893819193653425,
+        "support": 127.0
+      }
+    },
+    "etiquetas": [
+      "ambigua",
+      "comparacion",
+      "consulta_catalogo",
+      "consulta_frecuencia",
+      "consulta_maximo",
+      "consulta_programacion",
+      "consulta_progresion",
+      "consulta_registro",
+      "consulta_volumen",
+      "fuera_de_dominio",
+      "ultima_sesion"
+    ],
+    "matriz_confusion": [
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        17,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        17,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ]
+  },
+  "ood": {
+    "accuracy": 1.0,
+    "n": 7,
+    "classification_report": {
+      "ambigua": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "comparacion": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "consulta_catalogo": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "consulta_programacion": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "consulta_progresion": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "consulta_volumen": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "fuera_de_dominio": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      }
+    }
+  }
+}

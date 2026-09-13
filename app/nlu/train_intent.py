@@ -1,12 +1,7 @@
 """
-Entrena el clasificador de intencion: TF-IDF (n-gramas de caracteres) + regresion
-logistica multinomial. Alternativa elegida junto con el usuario para esta fase de
-la implementacion (ver apartado 4.3 de la Memoria, capitulo de Resultados): no
-requiere GPU, entrena en segundos en CPU, y dentro del sistema completo se combina
-con extraccion de entidades por reglas (nlu/../core/entidades.py). El ajuste fino
-de un encoder en espanol (BETO / RoBERTa-base-BNE), fijado en el Cap.3 como
-arquitectura objetivo, queda fuera del alcance entregado en esta fase (ver la
-nota de estado del Cap.4); no es una tarea pendiente para el usuario.
+Entrena el clasificador de intencion: TF-IDF (n-gramas de caracteres) + regresion logistica multinomial. 
+No requiere GPU, entrena en segundos en CPU, y dentro del sistema completo se combina 
+con extraccion de entidades por reglas (app/core/entidades.py). 
 
 Uso:
     python3 nlu/train_intent.py
